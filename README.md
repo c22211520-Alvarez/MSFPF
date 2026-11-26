@@ -198,6 +198,8 @@ Se construyeron las siguientes representaciones equivalentes:
 Se implementó un controlador en Simulink con retroalimentación negativa. La señal de error se define como:
 $e(t) = V_{s, control}(t) - V_{s, caso}(t)$
 
+Al finalizar la sintonización se obtuvo un controlador I de valor $(kI=1666.67668082261$)
+
 [Volver al contenido](#contenido)
 
 ---

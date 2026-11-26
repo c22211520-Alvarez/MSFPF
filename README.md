@@ -196,12 +196,7 @@ Se construyeron las siguientes representaciones equivalentes:
 ## Control en lazo cerrado y sintonización
 
 Se implementó un controlador en Simulink con retroalimentación negativa. La señal de error se define como:
-$$
-e(t) = V_{s,\text{control}}(t) - V_{s,\text{caso}}(t)
-$$
-
-**Ganancias Sintonizadas:**
-*(Nota: Agregar aquí las ganancias finales \(k_P\), \(k_I\) y \(k_D\) obtenidas en la herramienta Tune de Simulink).*
+$$ e(t) = V_{s,\text{control}}(t) - V_{s,\text{caso}}(t)$$
 
 [Volver al contenido](#contenido)
 
@@ -211,7 +206,7 @@ $$
 ## Resultados
 
 - **Línea Control (Sana):** Asciende con rapidez y se estabiliza visualmente cerca de 0.82 durante el estímulo.
-- **Línea Caso (Gastroparesia):** Comienza alrededor de 0.24 y aumenta lentamente hasta cerca de 0.40 antes de \(t=4\) s.
+- **Línea Caso (Gastroparesia):** Comienza alrededor de 0.24 y aumenta lentamente hasta cerca de 0.40 antes de $(t=4$) s.
 - **Línea Tratamiento (Caso con Controlador):** Logra estabilizarse y acerca la respuesta del caso a la referencia impuesta por el control, demostrando la eficacia del lazo cerrado.
 - Se verificó que las gráficas obtenidas en MATLAB, Simulink y Python son consistentes entre sí, validando el modelo matemático antes de la implementación.
 
@@ -226,7 +221,7 @@ Se elaboró un diagrama del sistema gastrointestinal utilizando la plataforma **
 En este diagrama se ilustra:
 - El estómago (fondo y antro) y el píloro.
 - El flujo de alimento y la resistencia al vaciamiento.
-- El mapeo de los componentes: \(V_e\) (estímulo), \(R_a\) (esfínter proximal), \(C\) (complacencia), \(L\) (inercia), \(R_p\) (peristalsis), \(R_b\) (píloro) y \(R_f\) (vía alternativa).
+- El mapeo de los componentes: $(V_e$) (estímulo), $(R_a$) (esfínter proximal), $(C$) (complacencia), $(L$) (inercia), $(R_p$) (peristalsis), $(R_b$) (píloro) y $(R_f$) (vía alternativa).
 
 *El archivo PDF original del diagrama se encuentra anexado en este repositorio.*
 
@@ -237,7 +232,7 @@ En este diagrama se ilustra:
 <a id="limitaciones"></a>
 ## Limitaciones del modelo
 
-La red no incorpora geometría gástrica, trituración de sólidos, coordinación antroduodenal, ondas lentas, control vagal, reflejos entéricos, señales hormonales ni glucemia. Sus elementos son lineales y constantes. Tampoco hay una correspondencia dimensional comprobada entre voltios/segundos y presión, caudal, volumen o minutos de vaciamiento. La rama \(R_f\) no constituye un conducto retrógrado y la rama \(R_b\) no es la única salida; esta limitación topológica impide interpretar literalmente el circuito como una anatomía exacta del estómago. El modelo aporta una demostración conceptual, no un modelo clínicamente validado.
+La red no incorpora geometría gástrica, trituración de sólidos, coordinación antroduodenal, ondas lentas, control vagal, reflejos entéricos, señales hormonales ni glucemia. Sus elementos son lineales y constantes. Tampoco hay una correspondencia dimensional comprobada entre voltios/segundos y presión, caudal, volumen o minutos de vaciamiento. La rama $(R_f$) no constituye un conducto retrógrado y la rama $(R_b$) no es la única salida; esta limitación topológica impide interpretar literalmente el circuito como una anatomía exacta del estómago. El modelo aporta una demostración conceptual, no un modelo clínicamente validado.
 
 [Volver al contenido](#contenido)
 

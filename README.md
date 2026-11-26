@@ -113,19 +113,19 @@ El sistema gastrointestinal se aproxima mediante un circuito eléctrico de topol
 A partir del análisis del circuito equivalente, aplicando las leyes de Kirchhoff (LVK por mallas), se obtienen las ecuaciones integro-diferenciales que rigen el sistema.
 
 **Ecuaciones de malla:**
-$$
+$
 V_e = R_a I_1 + R_v (I_1 - I_2) + \frac{1}{C} \int (I_1 - I_2) \, dt
-$$
+$
 
-$$
+$
 0 = L \frac{dI_2}{dt} + R_T I_2 + R_v (I_2 - I_1) + \frac{1}{C} \int (I_2 - I_1) \, dt
-$$
+$
 *(Donde \(R_T = R_p + R_{eq}\) y \(R_{eq} = R_f \parallel R_b\))*
 
 **Ecuación de salida:**
-$$
+$
 V_s = R_{eq} I_2
-$$
+$
 
 ### Procedimiento Algebraico (Transformada de Laplace)
 Aplicando Laplace con condiciones iniciales nulas y agrupando términos, se obtiene:

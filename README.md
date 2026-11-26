@@ -157,8 +157,8 @@ Invirtiendo la función de transferencia, la EDO que rige la dinámica del volta
 <a id="analisis"></a>
 ## Análisis temporal y de estabilidad
 
-- **Polos y estabilidad:** El denominador de la función de transferencia es de segundo grado. Al sustituir los valores de los componentes para ambos casos, los polos se encuentran en el semiplano izquierdo del plano complejo $(s$), garantizando un sistema estable. Para el control, $(\lambda_1 $approx -5.25$) y $(\lambda_2 $approx -105908$); para el caso, $(\lambda_1 $approx -0.55$) y $(\lambda_2 $approx -96163$). El caso presenta un polo mucho más cercano al origen, indicando una respuesta más lenta.
-- **Error en estado estacionario:** Al evaluar el límite de $(sG(s)$) cuando $(s $to 0$), el sistema se comporta como un integrador, pero debido a la topología de las resistencias, existe un error estacionario teórico del $(18.03$%$) para el control y del $(56.52$%$) para el caso, reflejando una menor capacidad de vaciamiento en el escenario alterado.
+- **Polos y estabilidad:** El denominador de la función de transferencia es de segundo grado. Al sustituir los valores de los componentes para ambos casos, los polos se encuentran en el semiplano izquierdo del plano complejo $s$, garantizando un sistema estable. Para el control, $\lambda_1 \approx -5.25$ y $\lambda_2 \approx -105908$; para el caso, $\lambda_1 \approx -0.55$ y $\lambda_2 \approx -96163$. El caso presenta un polo mucho más cercano al origen, indicando una respuesta más lenta.
+- **Error en estado estacionario:** Al evaluar el límite de $sG(s)$ cuando $s \to 0$, el sistema se comporta como un integrador, pero debido a la topología de las resistencias, existe un error estacionario teórico del $18.03\%$ para el control y del $56.52\%$ para el caso, reflejando una menor capacidad de vaciamiento en el escenario alterado.
 
 [Volver al contenido](#contenido)
 

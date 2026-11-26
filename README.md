@@ -246,10 +246,24 @@ La red no incorpora geometría gástrica, trituración de sólidos, coordinació
 <a id="referencias"></a>
 ## Referencias
 
-[1] Camilleri, M., Kuo, B., Nguyen, L., Vaughn, V. M., Petrey, J., Greer, K., Yadlapati, R., & Abell, T. L. (2022). ACG clinical guideline: Gastroparesis. *American Journal of Gastroenterology*, 117(8), 1197–1220. https://doi.org/10.14309/ajg.0000000000001874
+[1] M. C. Khoo, *Physiological Control Systems: Analysis, Simulation, and Estimation*, 2nd ed., IEEE Press, 2018.
 
-[2] Bharucha, A. E., Kudva, Y. C., & Prichard, D. O. (2019). Diabetic gastroparesis. *Endocrine Reviews*, 40(5), 1318–1352. https://doi.org/10.1210/er.2018-00161
+[2] F. C. Hoppensteadt y C. S. Peskin, *Modeling and Simulation in Medicine and the Life Sciences*, Springer.
 
-[3] Du, P., Poh, Y. C., Lim, J. L., Gajendiran, V., O’Grady, G., Buist, M. L., Pullan, A. J., & Cheng, L. K. (2011). A preliminary model of gastrointestinal electromechanical coupling. *IEEE Transactions on Biomedical Engineering*, 58(12), 3491–3495. https://doi.org/10.1109/TBME.2011.2166155
+[3] J. E. Hall, *Guyton and Hall Textbook of Medical Physiology*, 14th ed., Elsevier, 2021.
 
-[4] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2026.
+[4] K. Ogata, *Ingeniería de Control Moderna*, 5.ª ed., Pearson Educación, 2010.
+
+[5] N. S. Nise, *Control Systems Engineering*, 8th ed., John Wiley & Sons, 2020.
+
+[6] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B. C., México, 2026. Disponible en: https://biomath.xyz/course/
+
+[7] Tecnológico Nacional de México, *Programa de estudio de la asignatura Modelado de Sistemas Fisiológicos, IBF-1020*.
+
+[8] Camilleri, M., Kuo, B., Nguyen, L., Vaughn, V. M., Petrey, J., Greer, K., Yadlapati, R., & Abell, T. L. (2022). ACG clinical guideline: Gastroparesis. *American Journal of Gastroenterology*, 117(8), 1197–1220. https://doi.org/10.14309/ajg.0000000000001874
+
+[9] Bharucha, A. E., Kudva, Y. C., & Prichard, D. O. (2019). Diabetic gastroparesis. *Endocrine Reviews*, 40(5), 1318–1352. https://doi.org/10.1210/er.2018-00161
+
+[10] Du, P., Poh, Y. C., Lim, J. L., Gajendiran, V., O’Grady, G., Buist, M. L., Pullan, A. J., & Cheng, L. K. (2011). A preliminary model of gastrointestinal electromechanical coupling. *IEEE Transactions on Biomedical Engineering*, 58(12), 3491–3495. https://doi.org/10.1109/TBME.2011.2166155
+
+

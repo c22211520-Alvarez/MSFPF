@@ -92,14 +92,14 @@ El sistema gastrointestinal se aproxima mediante un circuito eléctrico de topol
 
 | Parámetro | Control (Sano) | Caso (Gastroparesia) | Interpretación Fisiológica |
 | :--- | :---: | :---: | :--- |
-| **\(V_e(t)\)** | Pulso 1V | Pulso 1V | Estímulo de ingesta (llegada de alimento). |
-| **\(R_a\) (Esfínter)** | \(1\ \text{k}\Omega\) | \(10\ \text{k}\Omega\) | Resistencia proximal al tránsito. |
-| **\(R_v\) (Viscosidad)** | \(1\ \text{k}\Omega\) | \(10\ \text{k}\Omega\) | Pérdidas viscosas o amortiguamiento. |
-| **\(C\) (Complianza)** | \(100\ \mu\text{F}\) | \(100\ \mu\text{F}\) | Acomodación / almacenamiento gástrico. |
-| **\(L\) (Inercia)** | \(100\ \text{mH}\) | \(500\ \text{mH}\) | Inercia efectiva del contenido (quimo). |
-| **\(R_p\) (Peristalsis)** | \(1\ \text{k}\Omega\) | \(20\ \text{k}\Omega\) | Oposición efectiva al transporte propulsivo. |
-| **\(R_f\) (Reflujo)** | \(100\ \text{k}\Omega\) | \(30\ \text{k}\Omega\) | Vía alternativa de descarga (derivación a tierra). |
-| **\(R_b\) (Píloro)** | \(10\ \text{k}\Omega\) | \(100\ \text{k}\Omega\) | Resistencia de salida asociada al esfínter pilórico. |
+| **$V_e(t)$** | Pulso 1V | Pulso 1V | Estímulo de ingesta (llegada de alimento). |
+| **$R_a$ (Esfínter)** | $1\ \text{k}\Omega$ | $10\ \text{k}\Omega$ | Resistencia proximal al tránsito. |
+| **$R_v$ (Viscosidad)** | $1\ \text{k}\Omega$ | $10\ \text{k}\Omega$ | Pérdidas viscosas o amortiguamiento. |
+| **$C$ (Complianza)** | $100\ \mu\text{F}$ | $100\ \mu\text{F}$ | Acomodación / almacenamiento gástrico. |
+| **$L$ (Inercia)** | $100\ \text{mH}$ | $500\ \text{mH}$ | Inercia efectiva del contenido (quimo). |
+| **$R_p$ (Peristalsis)** | $1\ \text{k}\Omega$ | $20\ \text{k}\Omega$ | Oposición efectiva al transporte propulsivo. |
+| **$R_f$ (Reflujo)** | $100\ \text{k}\Omega$ | $30\ \text{k}\Omega$ | Vía alternativa de descarga (derivación a tierra). |
+| **$R_b$ (Píloro)** | $10\ \text{k}\Omega$ | $100\ \text{k}\Omega$ | Resistencia de salida asociada al esfínter pilórico. |
 
 *La modificación de los parámetros en el caso busca reflejar la reducción de la motilidad y el aumento de la resistencia al vaciamiento.*
 
@@ -113,19 +113,22 @@ El sistema gastrointestinal se aproxima mediante un circuito eléctrico de topol
 A partir del análisis del circuito equivalente, aplicando las leyes de Kirchhoff (LVK por mallas), se obtienen las ecuaciones integro-diferenciales que rigen el sistema.
 
 **Ecuaciones de malla:**
-$
-V_e = R_a I_1 + R_v (I_1 - I_2) + \frac{1}{C} \int (I_1 - I_2) \, dt
-$
 
-$
-0 = L \frac{dI_2}{dt} + R_T I_2 + R_v (I_2 - I_1) + \frac{1}{C} \int (I_2 - I_1) \, dt
-$
-*(Donde \(R_T = R_p + R_{eq}\) y \(R_{eq} = R_f \parallel R_b\))*
+$$
+V_e(t) = R_a I_1(t) + R_v (I_1(t) - I_2(t)) + \frac{1}{C} \int (I_1(t) - I_2(t)) \, dt
+$$
+
+$$
+0 = L \frac{dI_2(t)}{dt} + R_T I_2(t) + R_v (I_2(t) - I_1(t)) + \frac{1}{C} \int (I_2(t) - I_1(t)) \, dt
+$$
+
+*(Donde $R_T = R_p + R_{eq}$ y $R_{eq} = R_f \parallel R_b$)*
 
 **Ecuación de salida:**
-$
-V_s = R_{eq} I_2
-$
+
+$$
+V_s(t) = R_{eq} I_2(t)
+$$
 
 ### Procedimiento Algebraico (Transformada de Laplace)
 Aplicando Laplace con condiciones iniciales nulas y agrupando términos, se obtiene:

@@ -247,6 +247,9 @@ La red no incorpora geometría gástrica, trituración de sólidos, coordinació
 ## Referencias
 
 [1] Camilleri, M., Kuo, B., Nguyen, L., Vaughn, V. M., Petrey, J., Greer, K., Yadlapati, R., & Abell, T. L. (2022). ACG clinical guideline: Gastroparesis. *American Journal of Gastroenterology*, 117(8), 1197–1220. https://doi.org/10.14309/ajg.0000000000001874
+
 [2] Bharucha, A. E., Kudva, Y. C., & Prichard, D. O. (2019). Diabetic gastroparesis. *Endocrine Reviews*, 40(5), 1318–1352. https://doi.org/10.1210/er.2018-00161
+
 [3] Du, P., Poh, Y. C., Lim, J. L., Gajendiran, V., O’Grady, G., Buist, M. L., Pullan, A. J., & Cheng, L. K. (2011). A preliminary model of gastrointestinal electromechanical coupling. *IEEE Transactions on Biomedical Engineering*, 58(12), 3491–3495. https://doi.org/10.1109/TBME.2011.2166155
+
 [4] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2026.

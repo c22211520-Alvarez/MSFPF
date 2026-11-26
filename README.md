@@ -196,7 +196,9 @@ Se construyeron las siguientes representaciones equivalentes:
 ## Control en lazo cerrado y sintonización
 
 Se implementó un controlador en Simulink con retroalimentación negativa. La señal de error se define como:
-$$ e(t) = V_{s,\text{control}}(t) - V_{s,\text{caso}}(t)$$
+$$
+e(t) = V_{s,\mathrm{control}}(t) - V_{s,\mathrm{caso}}(t)
+$$
 
 [Volver al contenido](#contenido)
 

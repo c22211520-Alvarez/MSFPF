@@ -93,13 +93,13 @@ El sistema gastrointestinal se aproxima mediante un circuito eléctrico de topol
 | Parámetro | Control (Sano) | Caso (Gastroparesia) | Interpretación Fisiológica |
 | :--- | :---: | :---: | :--- |
 | **$V_e(t)$** | Pulso 1V | Pulso 1V | Estímulo de ingesta (llegada de alimento). |
-| **$R_a$ (Esfínter)** | $1\ \text{k}\Omega$ | $10\ \text{k}\Omega$ | Resistencia proximal al tránsito. |
+| **$R_a$ (Esfínter esofágico inferior)** | $1\ \text{k}\Omega$ | $10\ \text{k}\Omega$ | Resistencia proximal al tránsito. |
 | **$R_v$ (Viscosidad)** | $1\ \text{k}\Omega$ | $10\ \text{k}\Omega$ | Pérdidas viscosas o amortiguamiento. |
 | **$C$ (Complianza)** | $100\ \mu\text{F}$ | $100\ \mu\text{F}$ | Acomodación / almacenamiento gástrico. |
-| **$L$ (Inercia)** | $100\ \text{mH}$ | $500\ \text{mH}$ | Inercia efectiva del contenido (quimo). |
+| **$L$ (Inercia del Quimo)** | $100\ \text{mH}$ | $500\ \text{mH}$ | Inercia efectiva del contenido (quimo). |
 | **$R_p$ (Peristalsis)** | $1\ \text{k}\Omega$ | $20\ \text{k}\Omega$ | Oposición efectiva al transporte propulsivo. |
 | **$R_f$ (Reflujo)** | $100\ \text{k}\Omega$ | $30\ \text{k}\Omega$ | Vía alternativa de descarga (derivación a tierra). |
-| **$R_b$ (Píloro)** | $10\ \text{k}\Omega$ | $100\ \text{k}\Omega$ | Resistencia de salida asociada al esfínter pilórico. |
+| **$R_b$ (Esfinter Pilórico)** | $10\ \text{k}\Omega$ | $100\ \text{k}\Omega$ | Resistencia de salida asociada al esfínter pilórico. |
 
 *La modificación de los parámetros en el caso busca reflejar la reducción de la motilidad y el aumento de la resistencia al vaciamiento.*
 
@@ -148,7 +148,7 @@ G(s) = \frac{V_s(s)}{V_e(s)} = \frac{R_{eq} (1 + s C R_v)}{L C (R_a + R_v) s^2 +
 $$
 
 ### Ecuación Diferencial (EDO)
-Invirtiendo la función de transferencia, la EDO que rige la dinámica del voltaje de salida \(V_s(t)\) es un sistema de segundo orden con un cero en el origen.
+Invirtiendo la función de transferencia, la EDO que rige la dinámica del voltaje de salida $(V_s(t)$) es un sistema de segundo orden con un cero en el origen.
 
 [Volver al contenido](#contenido)
 

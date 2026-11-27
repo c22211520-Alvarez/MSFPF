@@ -36,9 +36,10 @@ El caso de estudio representa el vaciamiento gástrico mediante un circuito elé
 8. [Implementación en MATLAB, Simulink y Python](#implementacion)
 9. [Control en lazo cerrado y sintonización](#pid)
 10. [Resultados](#resultados)
-11. [Diagrama Fisiológico (BioRender)](#biorender)
-12. [Limitaciones del modelo](#limitaciones)
-13. [Referencias](#referencias)
+11. [Análisis Cualitativo y Bitácora del Proyecto](#analisis-bitacora)  <-- NUEVO
+12. [Diagrama Fisiológico (BioRender)](#biorender)
+13. [Limitaciones del modelo](#limitaciones)
+14. [Referencias](#referencias)
 
 ---
 
@@ -214,6 +215,23 @@ Al finalizar la sintonización se obtuvo un controlador I de valor $(kI=1666.676
 
 [Volver al contenido](#contenido)
 
+---
+<a id="analisis-bitacora"></a>
+## Análisis Cualitativo y Bitácora del Proyecto
+
+Como parte del desarrollo y fundamentación del proyecto, se elaboró un documento de análisis cualitativo detallado (`Modelado Gastroparesia Diabetica.pdf`), el cual se encuentra anexado en la raíz de este repositorio. 
+
+Este documento contiene la bitácora oficial del equipo y expande la justificación teórica del modelo. A diferencia de los resultados numéricos de simulación, este análisis se enfoca en el alcance y las limitaciones de la analogía eléctrica propuesta. Los puntos principales que aborda son:
+
+- **Sistema fisiológico y enfermedad:** Contexto clínico del vaciamiento gástrico y la fisiopatología de la Gastroparesia Diabética.
+- **Analogía electro-fisiológica:** Un desglose crítico de la función eléctrica de cada componente y su interpretación fisiológica (aclarando las limitaciones topológicas, como la rama de $R_f$ y $R_b$).
+- **Justificación heurística de parámetros:** Evaluación del por qué los valores se seleccionaron de forma didáctica para generar respuestas visualmente distintas entre el control y el caso.
+- **Selección de la señal de entrada:** Comparativa del uso de escalón, pulso, rampa y sinusoidal, justificando la elección del pulso rectangular para simular la ingesta.
+- **Limitaciones del modelo y conclusiones:** Un análisis honesto sobre lo que el circuito RLC *no* puede representar (como la geometría gástrica o la actividad de las células de Cajal) y la recomendación de interpretar el voltaje $V_s(t)$ como un índice adimensional de respuesta y no como un volumen clínico absoluto.
+
+**Archivo adjunto:** `Modelado Gastroparesia Diabetica.pdf`
+
+[Volver al contenido](#contenido)
 ---
 
 <a id="biorender"></a>

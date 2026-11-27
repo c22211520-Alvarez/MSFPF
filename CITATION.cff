@@ -10,19 +10,18 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Álvarez Garcia
+  - given-names: Gabriela Gissele
     email: C22211520@tectijuana.edu.mx
     affiliation: TecNM / IT Tijuana
-    family-names: Gabriela Gissele
-  - given-names: Bonilla Martinez
-    name-particle: Nayeli
+    family-names: Álvarez Garc+ia
+  - given-names: Nayeli
     email: l22212381@tectijuana.edu.mx
     affiliation: TecNM / IT Tijuana
-    family-names: Nayeli
-  - given-names: Díaz de León Bernal
+    family-names: Bonilla Martinez
+  - given-names: David Emiliano
     email: l23211564@tectijuana.edu.mx
     affiliation: TecNM / IT Tijuana
-    family-names: David Emiliano
+    family-names: Díaz de León Bernal
 repository-code: 'https://github.com/c22211520-Alvarez/MSFPF'
 keywords:
   - Gastroparesia Diabética
